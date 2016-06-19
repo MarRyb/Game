@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="http://localhost:3000/logo/logo.png">
+    <title>Game</title>
+    <link rel="stylesheet" type="text/css" href="style/fireworks.css" media="screen" />
+
+	<!--script type="text/javascript" src="script/debug.js"></script-->
+	<script type="text/javascript" src="script/soundmanager.js"></script>
+	<script type="text/javascript" src="script/fireworks.js"></script>
+
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+body {
+	margin: 0;
+}
+.help-for-border {
+	border-color: black;
+	opacity: 0.5;
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	top: 15px;
+	bottom: 15px;
+	border: 2px dotted rgba(194, 16, 230, 0.77);
+}
+.container-xo div {
+	font-size: 50px;
+	display: inline-block;
+	border-radius: 70px;
+}
+.container-xo{
+	vertical-align: top;
+}
+.container-xo {
+	text-align: center;
+	line-height: 100px;
+}
+.container-xo .brdr-xo{
+	background: linear-gradient(to top, rgb(255, 0, 234), rgb(246, 229, 248));
+	width: 110px;
+	height: 110px;
+	margin-top: 15px;
+	color: #fff;
+}
+
+.brdr-xo-edit {
+	background: red !important;
+}
+
+
+body, div.bacgr_body {
+	background-image: url("http://rsload.net/images4/vin/2014/0311/oboi3.jpg");
+	background-color: #eee;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main-container{ 
+	margin: 0 auto;
+	padding: 20px;
+	background: #f4a4cb;
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -250px;
+	margin-top: -250px;
+	border: 2px dotted #eee;
+	border-color: #9f098d;
+	opacity: 0.8;
+	font-size: 0;
+}
+.finish {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(to top, rgb(255, 0, 234), rgb(246, 229, 248));
+	left: 0;
+	top: 0;
+	z-index: 22;
+	opacity: 0.9;
+	color: white;
+	font-weight: bold;
+	font-size: 250px;
+	text-align: center;
+	line-height: 500px;
+	text-shadow: 5px 3px 2px black;
+	box-shadow: 0 0 0 black, 0 0 1em rgb(255, 0, 234);
+}
+.container-xo {
+	height: 33.3333333%;
+	width: 33.33333%;
+	background: #ffb4d9;
+	border: 2px dotted rgba(194, 16, 230, 0.77);
+	display: inline-block;
+}
+.brdr-xo:hover {
+	color: white;
+	box-shadow: 0 0 0 black, 0 0 1em red;
+	cursor: pointer;
+	background: linear-gradient(to top, rgb(141, 0, 255), rgb(246, 229, 248));
+} 
+.brdr-xo-effect{
+	color: white !important;
+	box-shadow: 0 0 0 black, 0 0 1em red !important;
+	cursor: pointer !important;
+	background: linear-gradient(to top, rgb(141, 0, 255), rgb(246, 229, 248)) !important;
+}
+.brdr-xo .stl-x:hover {
+	color: white;
+	text-shadow: 3px 3px 2px black, 0 0 1em red;
+	cursor: pointer;
+} 
+.brdr-xo .stl-0:hover {
+	cursor: pointer;
+	color: white;
+	text-shadow: 3px 3px 2px black, 0 0 1em red;
+} 
